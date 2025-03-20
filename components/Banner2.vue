@@ -10,9 +10,6 @@
             src="/images/bo-khung/15x21/DSC08983.jpg"
             alt="Bride"
             class="transition-transform duration-300 hover:scale-110 cursor-pointer"
-            fit="cover"
-            width="700"
-            quality="70"
             @click="
               isModalOpen = true;
               imageUrl = '/images/bo-khung/15x21/DSC08983.jpg';
@@ -37,9 +34,6 @@
             src="/images/anh-phong/DSC09391.jpg"
             alt="Groom"
             class="transition-transform duration-300 hover:scale-105 cursor-pointer"
-            fit="cover"
-            width="700"
-            quality="70"
             @click="
               isModalOpen = true;
               imageUrl = '/images/anh-phong/DSC09391.jpg';

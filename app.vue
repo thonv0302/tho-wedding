@@ -19,9 +19,6 @@
         class="rounded-xl md:rounded-2xl cursor-pointer"
         src="/images/anh-phong/DSC09391.jpg"
         alt="Switching Image"
-        fit="cover"
-        width="700"
-        quality="70"
         @click="
           isModalOpen = true;
           imageUrl = '/images/anh-phong/DSC09391.jpg';
@@ -44,9 +41,6 @@
           src="/images/bo-khung/15x21/DSC09457.jpg"
           class="transition-transform duration-300 hover:scale-115 cursor-pointer"
           alt="Switching Image"
-          fit="cover"
-          width="700"
-          quality="70"
           @click="
             isModalOpen11 = true;
             imageUrl1 = '/images/bo-khung/15x21/DSC09457.jpg';
@@ -83,9 +77,6 @@
           src="/images/thiep-moi/nhatrai.PNG"
           class="cursor-pointer w-full"
           alt="Switching Image"
-          fit="cover"
-          width="700"
-          quality="70"
           @click="
             isModalOpen = true;
             imageUrl = '/images/thiep-moi/nhatrai.PNG';
@@ -95,9 +86,6 @@
           src="/images/thiep-moi/nhagai.PNG"
           class="cursor-pointer w-full"
           alt="Switching Image"
-          fit="cover"
-          width="700"
-          quality="70"
           @click="
             isModalOpen = true;
             imageUrl = '/images/thiep-moi/nhatrai.PNG';
