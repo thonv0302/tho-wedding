@@ -15,49 +15,33 @@
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/anh-ban/DSC08697.jpg"
-        fit="cover"
-        width="700"
-        quality="70"
         @click="click(0)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/anh-phong/DSC08964.jpg"
-        fit="cover"
-        width="700"
-        quality="70"
+  
         @click="click(1)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/bo-khung/15x21/DSC09003.jpg"
-        fit="cover"
-        width="700"
-        quality="70"
+
         @click="click(2)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/bo-khung/15x21/DSC09477.jpg"
-        fit="cover"
-        width="700"
-        quality="70"
         @click="click(3)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/bo-khung/20x30/DSC08666.jpg"
-        fit="cover"
-        width="700"
-        quality="70"
         @click="click(4)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/bo-khung/25x25/DSC08764.jpg"
-        fit="cover"
-        width="700"
-        quality="70"
         @click="click(5)"
     /></swiper-slide>
   </swiper>
@@ -75,50 +59,38 @@
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/anh-ban/DSC08697.jpg"
-        fit="cover"
-        width="700"
         @click="click(0)"
-        quality="70" /></swiper-slide
+     /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/anh-phong/DSC08964.jpg"
-        fit="cover"
-        width="700"
+
         @click="click(1)"
-        quality="70" /></swiper-slide
+     /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/bo-khung/15x21/DSC09003.jpg"
-        fit="cover"
-        width="700"
         @click="click(2)"
-        quality="70" /></swiper-slide
+/></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/bo-khung/15x21/DSC09477.jpg"
-        fit="cover"
-        width="700"
         @click="click(3)"
-        quality="70" /></swiper-slide
+   /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/bo-khung/20x30/DSC08666.jpg"
-        fit="cover"
-        width="700"
         @click="click(4)"
-        quality="70" /></swiper-slide
+  /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/bo-khung/25x25/DSC08764.jpg"
-        fit="cover"
-        width="700"
         @click="click(5)"
-        quality="70"
     /></swiper-slide>
   </swiper>
 </template>

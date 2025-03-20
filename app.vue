@@ -196,6 +196,19 @@
 </template>
 
 <script setup>
+useHead({
+  title: "Tiêu đề trang của bạn",
+  meta: [
+    { property: "og:title", content: "Wedding of Tho and Hong" },
+    { property: "og:description", content: "Wedding of Tho and Hong" },
+    {
+      property: "og:image",
+      content: "https://learn.microsoft.com/vi-vn/windows-hardware/design/images/desktop.png",
+    },
+    { property: "og:url", content: "https://learn.microsoft.com/vi-vn/windows-hardware/design/images/desktop.png" },
+    { property: "og:type", content: "website" },
+  ],
+});
 import ImageGalary from "./components/ImageGalary.vue";
 
 const isShowQRTho = ref(false);
@@ -231,11 +244,10 @@ const getIndex = (index) => {
 
 .title4 {
   font-family: Saira, cursive;
-
 }
 
 .title5 {
-  font-family:  Pacifico, cursive;
+  font-family: Pacifico, cursive;
   font-weight: 300;
 }
 
