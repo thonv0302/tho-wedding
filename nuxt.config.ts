@@ -8,10 +8,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: ["nuxt-mongoose", "@nuxtjs/google-fonts", "@nuxt/image"],
-  nitro: {
-    plugins: ["~/server/plugins/mongodb.ts"],
-  },
+  modules: ["@nuxtjs/google-fonts", "@nuxt/image"],
   googleFonts: {
     families: {
       Tangerine: [400, 700],
@@ -23,6 +20,10 @@ export default defineNuxtConfig({
       "Great Vibes": [100, 200, 300, 400, 500, 600, 700, 800, 900],
     },
   },
+  // routeRules: {
+  //   // Chạy ở chế độ tĩnh cho tất cả các trang
+  //   '/**': { prerender: true }
+  // },
   // image: {
   //   dir: "assets/images",
   // },

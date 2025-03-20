@@ -2,20 +2,22 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
+  "homepage": "https://thonv.github.io/tho-hong-wedding/",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "npx gh-pages -d .output/public"
   },
   "dependencies": {
     "@nuxt/image": "^1.9.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@tailwindcss/vite": "^4.0.9",
+    "gh-pages": "^6.3.0",
     "mongoose": "^8.12.1",
     "nuxt": "^3.15.4",
-    "nuxt-mongoose": "^1.0.6",
     "swiper": "^11.2.5",
     "tailwindcss": "^4.0.9",
     "vue": "^3.5.13",
