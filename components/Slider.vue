@@ -71,7 +71,7 @@
         class="w-full h-full object-cover"
         src="/images/videos/DSC09048.webp"
     /></swiper-slide>
-    <swiper-slide
+    <!-- <swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/videos/DSC09092.webp"
@@ -115,7 +115,7 @@
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/videos/DSC09499.webp"
-    /></swiper-slide>
+    /></swiper-slide> -->
   </swiper>
   <swiper
     @swiper="setThumbsSwiper"
@@ -187,7 +187,7 @@
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09048.webp"
     /></swiper-slide>
-    <swiper-slide
+    <!-- <swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09092.webp"
@@ -226,7 +226,7 @@
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09499.webp"
-    /></swiper-slide>
+    /></swiper-slide> -->
   </swiper>
 </template>
 <script>
