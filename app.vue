@@ -227,7 +227,7 @@ useHead({
   title: "The wedding Tho and Hong",
   meta: [
     { property: "og:title", content: "The Wedding of Tho and Hong" },
-    { property: "og:description", content: "The wedding of Tho and Hong" },
+    { property: "og:description", content: "/images/anh-phong/DSC09391.webp" },
     {
       property: "og:image",
       content: "/images/anh-phong/DSC09391.webp",
