@@ -71,7 +71,7 @@
         class="w-full h-full object-cover"
         src="/images/videos/DSC09048.webp"
     /></swiper-slide>
-    <!-- <swiper-slide
+    <swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/videos/DSC09092.webp"
@@ -96,6 +96,7 @@
         class="w-full h-full object-cover"
         src="/images/videos/DSC09137.webp"
     /></swiper-slide>
+    <!-- 
     <swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
@@ -187,7 +188,7 @@
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09048.webp"
     /></swiper-slide>
-    <!-- <swiper-slide
+    <swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09092.webp"
@@ -207,7 +208,7 @@
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09137.webp"
     /></swiper-slide>
-    <swiper-slide
+     <!--<swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09198.webp"
