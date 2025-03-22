@@ -136,7 +136,9 @@
         Cảm ơn tất cả tình cảm của cô dì chú bác, bạn bè và anh chị em đã dành
         cho Thọ & Hồng
       </p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-14 mt-4 mx-4 lg:mx-8">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-14 mt-4 mx-4 lg:mx-8"
+      >
         <div class="text-center">
           <NuxtImg
             src="/images/tho1.png"
@@ -228,8 +230,7 @@ useHead({
     { property: "og:description", content: "The wedding of Tho and Hong" },
     {
       property: "og:image",
-      content:
-        "https://learn.microsoft.com/vi-vn/windows-hardware/design/images/desktop.png",
+      content: "/images/anh-phong/DSC09391.webp",
     },
     { property: "og:url", content: "The wedding of Tho and Hong" },
     { property: "og:type", content: "website" },
