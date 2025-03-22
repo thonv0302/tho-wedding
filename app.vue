@@ -17,11 +17,11 @@
     <div class="mt-4">
       <NuxtImg
         class="rounded-xl md:rounded-2xl cursor-pointer"
-        src="/images/anh-phong/DSC09391.jpg"
+        src="/images/anh-phong/DSC09391.webp"
         alt="Switching Image"
         @click="
           isModalOpen = true;
-          imageUrl = '/images/anh-phong/DSC09391.jpg';
+          imageUrl = '/images/anh-phong/DSC09391.webp';
         "
       />
     </div>
@@ -35,19 +35,7 @@
       />
       <Banner2 />
     </div>
-    <div class="mt-4">
-      <div class="rounded-xl md:rounded-2xl overflow-hidden">
-        <NuxtImg
-          src="/images/bo-khung/15x21/DSC09457.jpg"
-          class="transition-transform duration-300 hover:scale-115 cursor-pointer"
-          alt="Switching Image"
-          @click="
-            isModalOpen11 = true;
-            imageUrl1 = '/images/bo-khung/15x21/DSC09457.jpg';
-          "
-        />
-      </div>
-    </div>
+
     <div class="relative mt-4 bg-fuchsia-50">
       <NuxtImg
         class="absolute z-10 w-30 -left-3 scale-x-[-1] opacity-75"
@@ -71,8 +59,45 @@
       {{ isShow }}
     </div> -->
     <div class="mt-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="rounded-xl lg:rounded-2xl overflow-hidden">
+          <NuxtImg
+            src="/images/bo-khung/15x21/DSC09457.webp"
+            class="transition-transform duration-300 hover:scale-115 cursor-pointer"
+            alt="Switching Image"
+            @click="
+              isModalOpen11 = true;
+              imageUrl1 = '/images/bo-khung/15x21/DSC09457.webp';
+            "
+          />
+        </div>
+        <div class="rounded-xl lg:rounded-2xl overflow-hidden">
+          <NuxtImg
+            src="/images/videos/DSC09438.webp"
+            class="transition-transform duration-300 hover:scale-115 cursor-pointer"
+            alt="Switching Image"
+            @click="
+              isModalOpen11 = true;
+              imageUrl1 = '/images/videos/DSC09438.webp';
+            "
+          />
+        </div>
+        <!-- <div class="rounded-xl lg:rounded-2xl overflow-hidden">
+          <NuxtImg
+            src="/images/videos/DSC09438.webp"
+            class="transition-transform duration-300 hover:scale-115 cursor-pointer"
+            alt="Switching Image"
+            @click="
+              isModalOpen11 = true;
+              imageUrl1 = '/images/videos/DSC09438.webp';
+            "
+          />
+        </div> -->
+      </div>
+    </div>
+    <div class="mt-4">
       <div class="text-center mb-3 text-3xl title3">Bữa Cơm Thân Mật</div>
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <NuxtImg
           src="/images/thiep-moi/nhatrai.PNG"
           class="cursor-pointer w-full"
@@ -107,22 +132,22 @@
 
     <div class="mt-6">
       <h1 class="text-center text-3xl font-semibold mb-2 title4">CHÚC PHÚC</h1>
-      <p class="text-xl text-center title5">
+      <p class="text-xl text-center title5 text-gray-600">
         Cảm ơn tất cả tình cảm của cô dì chú bác, bạn bè và anh chị em đã dành
         cho Thọ & Hồng
       </p>
-      <div class="grid grid-cols-2 gap-14 mt-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-14 mt-4 mx-4 lg:mx-8">
         <div class="text-center">
           <NuxtImg
             src="/images/tho1.png"
             alt="Bride"
             fit="cover"
-            class="rounded-full border-4"
+            class="rounded-full border-4 lg:bg-6 border-gray-600"
           />
           <div class="mt-3 text-2xl title3">Chú Rể</div>
           <div class="mt-3 text-2xl title">Viết Thọ</div>
           <button
-            class="py-3 px-10 border-2 rounded-lg mt-4 cursor-pointer lg:text-xl mung-cuoi"
+            class="py-3 px-10 border-4 border-red-300 bg-red-500 hover:bg-red-400 text-white rounded-lg mt-4 font-semibold cursor-pointer lg:text-xl mung-cuoi"
             @click="
               () => {
                 isShowQRTho = true;
@@ -137,12 +162,12 @@
             src="/images/hong1.png"
             alt="Bride"
             fit="cover"
-            class="rounded-full border-4"
+            class="rounded-full border-4 lg:bg-6 border-gray-600"
           />
           <div class="mt-3 text-2xl title3">Cô dâu</div>
           <div class="mt-3 text-2xl title">Tưởng Hồng</div>
           <button
-            class="py-3 px-10 border-2 rounded-lg mt-4 cursor-pointer lg:text-xl mung-cuoi"
+            class="py-3 px-10 border-4 border-red-300 bg-red-500 hover:bg-red-400 text-white rounded-lg mt-4 font-semibold cursor-pointer lg:text-xl mung-cuoi"
             @click="isShowQRHong = true"
           >
             Mừng Cưới
@@ -197,19 +222,19 @@
 
 <script setup>
 useHead({
-  title: "Tiêu đề trang của bạn",
+  title: "The wedding Tho and Hong",
   meta: [
-    { property: "og:title", content: "Wedding of Tho and Hong" },
-    { property: "og:description", content: "Wedding of Tho and Hong" },
+    { property: "og:title", content: "The Wedding of Tho and Hong" },
+    { property: "og:description", content: "The wedding of Tho and Hong" },
     {
       property: "og:image",
-      content: "https://learn.microsoft.com/vi-vn/windows-hardware/design/images/desktop.png",
+      content:
+        "https://learn.microsoft.com/vi-vn/windows-hardware/design/images/desktop.png",
     },
-    { property: "og:url", content: "https://learn.microsoft.com/vi-vn/windows-hardware/design/images/desktop.png" },
+    { property: "og:url", content: "The wedding of Tho and Hong" },
     { property: "og:type", content: "website" },
   ],
 });
-import ImageGalary from "./components/ImageGalary.vue";
 
 const isShowQRTho = ref(false);
 const isShowQRHong = ref(false);
@@ -243,7 +268,7 @@ const getIndex = (index) => {
 }
 
 .title4 {
-  font-family: Saira, cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .title5 {

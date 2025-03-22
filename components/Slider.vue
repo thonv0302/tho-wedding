@@ -11,38 +11,11 @@
     :thumbs="{ swiper: thumbsSwiper }"
     :modules="modules"
   >
-    <swiper-slide
+    <swiper-slide v-for="(image, index) in imageList" :key="Math.random()"
       ><NuxtImg
         class="w-full h-full object-cover"
-        src="/images/anh-ban/DSC08697.jpg"
-        @click="click(0)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover"
-        src="/images/anh-phong/DSC08964.jpg"
-  
-        @click="click(1)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover"
-        src="/images/bo-khung/15x21/DSC09003.jpg"
-
-        @click="click(2)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover"
-        src="/images/bo-khung/15x21/DSC09477.jpg"
-        @click="click(3)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover"
-        src="/images/bo-khung/20x30/DSC08666.jpg"
-        @click="click(4)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover"
-        src="/images/bo-khung/25x25/DSC08764.jpg"
-        @click="click(5)"
+        :src="image"
+        @click="click(index)"
     /></swiper-slide>
   </swiper>
   <swiper
@@ -55,43 +28,38 @@
     :modules="modules"
     class="mt-2"
   >
-    <swiper-slide
+    <swiper-slide v-for="(image, index) in imageList" :key="Math.random()"
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
-        src="/images/anh-ban/DSC08697.jpg"
+        :src="image"
         @click="click(0)"
-     /></swiper-slide
+    /></swiper-slide>
+    <!-- <swiper-slide
+      ><NuxtImg
+        class="w-full h-full object-cover cursor-pointer"
+        src="/images/anh-phong/DSC08964.webp"
+        @click="click(1)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
-        src="/images/anh-phong/DSC08964.jpg"
-
-        @click="click(1)"
-     /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover cursor-pointer"
-        src="/images/bo-khung/15x21/DSC09003.jpg"
-        @click="click(2)"
-/></swiper-slide
+        src="/images/bo-khung/15x21/DSC09003.webp"
+        @click="click(2)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
-        src="/images/bo-khung/15x21/DSC09477.jpg"
-        @click="click(3)"
-   /></swiper-slide
+        src="/images/bo-khung/15x21/DSC09477.webp"
+        @click="click(3)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
-        src="/images/bo-khung/20x30/DSC08666.jpg"
-        @click="click(4)"
-  /></swiper-slide
+        src="/images/bo-khung/20x30/DSC08666.webp"
+        @click="click(4)" /></swiper-slide
     ><swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
-        src="/images/bo-khung/25x25/DSC08764.jpg"
+        src="/images/bo-khung/25x25/DSC08764.webp"
         @click="click(5)"
-    /></swiper-slide>
+    /></swiper-slide> -->
   </swiper>
 </template>
 <script>
@@ -118,6 +86,30 @@ export default {
   },
   emits: ["sendIndex"],
   setup({ emits }) {
+    const imageList = ref([
+      "/images/anh-ban/DSC08697.webp",
+      "/images/anh-phong/DSC08964.webp",
+      "/images/bo-khung/15x21/DSC09003.webp",
+      "/images/bo-khung/15x21/DSC09477.webp",
+      "/images/bo-khung/20x30/DSC08666.webp",
+      "/images/bo-khung/25x25/DSC08764.webp",
+      "/images/videos/DSC08849.webp",
+      "/images/videos/DSC08874.webp",
+      "/images/videos/DSC08895.webp",
+      "/images/videos/DSC08955.webp",
+      "/images/videos/DSC09029.webp",
+      "/images/videos/DSC09048.webp",
+      "/images/videos/DSC09092.webp",
+      "/images/videos/DSC09098.webp",
+      "/images/videos/DSC09119.webp",
+      "/images/videos/DSC09131.webp",
+      "/images/videos/DSC09137.webp",
+      "/images/videos/DSC09198.webp",
+      "/images/videos/DSC09229.webp",
+      "/images/videos/DSC09352.webp",
+      "/images/videos/DSC09499.webp",
+    ]);
+
     const thumbsSwiper = ref(null);
 
     const setThumbsSwiper = (swiper) => {
@@ -125,8 +117,6 @@ export default {
     };
 
     const click = (index) => {
-      console.log('index: ', index);
-      
       emits("sendIndex", index);
     };
 
@@ -135,6 +125,7 @@ export default {
       setThumbsSwiper,
       modules: [FreeMode, Navigation, Thumbs, Autoplay],
       click,
+      imageList,
     };
   },
 };

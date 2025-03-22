@@ -64,12 +64,12 @@ const props = withDefaults(
 
 // Image list
 const images = ref([
-  "/images/anh-ban/DSC08697.jpg",
-  "/images/anh-phong/DSC08964.jpg",
-  "/images/bo-khung/15x21/DSC09003.jpg",
-  "/images/bo-khung/15x21/DSC09477.jpg",
-  "/images/bo-khung/20x30/DSC08666.jpg",
-  "/images/bo-khung/25x25/DSC08764.jpg",
+  "/images/anh-ban/DSC08697.webp",
+  "/images/anh-phong/DSC08964.webp",
+  "/images/bo-khung/15x21/DSC09003.webp",
+  "/images/bo-khung/15x21/DSC09477.webp",
+  "/images/bo-khung/20x30/DSC08666.webp",
+  "/images/bo-khung/25x25/DSC08764.webp",
 ]);
 
 watch(

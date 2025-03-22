@@ -7,7 +7,7 @@
       <div class="flex flex-col">
         <div class="rounded-xl md:rounded-2xl overflow-hidden">
           <NuxtImg
-            src="/images/bo-khung/15x21/DSC08983.jpg"
+            src="/images/bo-khung/15x21/DSC08983.webp"
             alt="Bride"
             class="transition-transform duration-300 hover:scale-110 cursor-pointer"
             @click="
@@ -31,12 +31,12 @@
       <div class="flex flex-col">
         <div class="rounded-xl md:rounded-2xl overflow-hidden">
           <NuxtImg
-            src="/images/anh-phong/DSC09391.jpg"
+            src="/images/videos/DSC09352.webp"
             alt="Groom"
             class="transition-transform duration-300 hover:scale-105 cursor-pointer"
             @click="
               isModalOpen = true;
-              imageUrl = '/images/anh-phong/DSC09391.jpg';
+              imageUrl = '/images/videos/DSC09352.webp';
             "
           />
         </div>
