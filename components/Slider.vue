@@ -8,7 +8,6 @@
     :spaceBetween="10"
     :autoplay="{ delay: 1000, pauseOnMouseEnter: true }"
     :navigation="true"
-    :thumbs="{ swiper: thumbsSwiper }"
     :modules="modules"
   >
     <swiper-slide
@@ -278,15 +277,15 @@ export default {
       "/images/videos/DSC09499.webp",
     ]);
 
-    const thumbsSwiper = ref(null);
+    // const thumbsSwiper = ref(null);
 
-    const setThumbsSwiper = (swiper) => {
-      thumbsSwiper.value = swiper;
-    };
+    // const setThumbsSwiper = (swiper) => {
+    //   thumbsSwiper.value = swiper;
+    // };
 
     return {
-      thumbsSwiper,
-      setThumbsSwiper,
+      // thumbsSwiper,
+      // setThumbsSwiper,
       modules: [FreeMode, Navigation, Thumbs, Autoplay],
       imageList,
     };
