@@ -11,11 +11,8 @@
     :thumbs="{ swiper: thumbsSwiper }"
     :modules="modules"
   >
-    <swiper-slide v-for="(image, index) in imageList" :key="Math.random()"
-      ><NuxtImg
-        class="w-full h-full object-cover"
-        :src="image"
-        @click="click(index)"
+    <swiper-slide v-for="(image) in imageList" :key="image"
+      ><NuxtImg class="w-full h-full object-cover" :src="image"
     /></swiper-slide>
   </swiper>
   <swiper
@@ -28,38 +25,9 @@
     :modules="modules"
     class="mt-2"
   >
-    <swiper-slide v-for="(image, index) in imageList" :key="Math.random()"
-      ><NuxtImg
-        class="w-full h-full object-cover cursor-pointer"
-        :src="image"
-        @click="click(index)"
+    <swiper-slide v-for="(image) in imageList" :key="image"
+      ><NuxtImg class="w-full h-full object-cover cursor-pointer" :src="image"
     /></swiper-slide>
-    <!-- <swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover cursor-pointer"
-        src="/images/anh-phong/DSC08964.webp"
-        @click="click(1)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover cursor-pointer"
-        src="/images/bo-khung/15x21/DSC09003.webp"
-        @click="click(2)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover"
-        src="/images/bo-khung/15x21/DSC09477.webp"
-        @click="click(3)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover cursor-pointer"
-        src="/images/bo-khung/20x30/DSC08666.webp"
-        @click="click(4)" /></swiper-slide
-    ><swiper-slide
-      ><NuxtImg
-        class="w-full h-full object-cover cursor-pointer"
-        src="/images/bo-khung/25x25/DSC08764.webp"
-        @click="click(5)"
-    /></swiper-slide> -->
   </swiper>
 </template>
 <script>
@@ -116,15 +84,10 @@ export default {
       thumbsSwiper.value = swiper;
     };
 
-    const click = (index) => {
-      emits("sendIndex", index);
-    };
-
     return {
       thumbsSwiper,
       setThumbsSwiper,
       modules: [FreeMode, Navigation, Thumbs, Autoplay],
-      click,
       imageList,
     };
   },

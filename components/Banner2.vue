@@ -12,7 +12,7 @@
             class="transition-transform duration-300 hover:scale-110 cursor-pointer"
             @click="
               isModalOpen = true;
-              imageUrl = '/images/bo-khung/15x21/DSC08983.jpg';
+              imageUrl = '/images/bo-khung/15x21/DSC08983.webp';
             "
           />
         </div>

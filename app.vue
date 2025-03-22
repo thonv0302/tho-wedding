@@ -53,11 +53,6 @@
       </div>
       <!-- <Slider /> -->
     </div>
-    <!-- <div>
-      <ImageGalary :currentIndex="currentIndex" :show="isShow" />
-      {{ currentIndex }}
-      {{ isShow }}
-    </div> -->
     <div class="mt-4">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="rounded-xl lg:rounded-2xl overflow-hidden">
