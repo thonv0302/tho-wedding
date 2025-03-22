@@ -11,8 +11,20 @@
     :thumbs="{ swiper: thumbsSwiper }"
     :modules="modules"
   >
-    <swiper-slide v-for="(image) in imageList" :key="image"
-      ><NuxtImg class="w-full h-full object-cover" :src="image"
+    <swiper-slide
+      ><NuxtImg
+        class="w-full h-full object-cover"
+        src="/images/anh-ban/DSC08697.webp"
+    /></swiper-slide>
+    <swiper-slide
+      ><NuxtImg
+        class="w-full h-full object-cover"
+        src="/images/anh-phong/DSC08964.webp"
+    /></swiper-slide>
+    <swiper-slide
+      ><NuxtImg
+        class="w-full h-full object-cover"
+        src="/images/bo-khung/15x21/DSC09003.webp"
     /></swiper-slide>
   </swiper>
   <swiper
@@ -25,8 +37,20 @@
     :modules="modules"
     class="mt-2"
   >
-    <swiper-slide v-for="(image) in imageList" :key="image"
-      ><NuxtImg class="w-full h-full object-cover cursor-pointer" :src="image"
+    <swiper-slide
+      ><NuxtImg
+        class="w-full h-full object-cover cursor-pointer"
+        src="/images/anh-ban/DSC08697.webp"
+    /></swiper-slide>
+    <swiper-slide
+      ><NuxtImg
+        class="w-full h-full object-cover cursor-pointer"
+        src="/images/anh-phong/DSC08964.webp"
+    /></swiper-slide>
+    <swiper-slide
+      ><NuxtImg
+        class="w-full h-full object-cover cursor-pointer"
+        src="/images/bo-khung/15x21/DSC09003.webp"
     /></swiper-slide>
   </swiper>
 </template>
