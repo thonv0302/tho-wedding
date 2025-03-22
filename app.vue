@@ -51,7 +51,7 @@
       >
         OUR MEMORY
       </div>
-      <Slider @sendIndex="getIndex" />
+      <!-- <Slider /> -->
     </div>
     <!-- <div>
       <ImageGalary :currentIndex="currentIndex" :show="isShow" />
@@ -82,17 +82,6 @@
             "
           />
         </div>
-        <!-- <div class="rounded-xl lg:rounded-2xl overflow-hidden">
-          <NuxtImg
-            src="/images/videos/DSC09438.webp"
-            class="transition-transform duration-300 hover:scale-115 cursor-pointer"
-            alt="Switching Image"
-            @click="
-              isModalOpen11 = true;
-              imageUrl1 = '/images/videos/DSC09438.webp';
-            "
-          />
-        </div> -->
       </div>
     </div>
     <div class="mt-4">

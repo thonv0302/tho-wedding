@@ -32,7 +32,7 @@
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         :src="image"
-        @click="click(0)"
+        @click="click(index)"
     /></swiper-slide>
     <!-- <swiper-slide
       ><NuxtImg
