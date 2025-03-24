@@ -81,7 +81,7 @@
         class="w-full h-full object-cover"
         src="/images/videos/DSC09098.webp"
     /></swiper-slide>
-    <swiper-slide
+    <!-- <swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/videos/DSC09119.webp"
@@ -95,7 +95,7 @@
       ><NuxtImg
         class="w-full h-full object-cover"
         src="/images/videos/DSC09137.webp"
-    /></swiper-slide>
+    /></swiper-slide> -->
     <!-- 
     <swiper-slide
       ><NuxtImg
@@ -193,7 +193,7 @@
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09092.webp"
     /></swiper-slide>
-    <swiper-slide
+    <!-- <swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09119.webp"
@@ -207,7 +207,7 @@
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09137.webp"
-    /></swiper-slide>
+    /></swiper-slide> -->
      <!--<swiper-slide
       ><NuxtImg
         class="w-full h-full object-cover cursor-pointer"
