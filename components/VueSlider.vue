@@ -10,16 +10,6 @@ const swiper = useSwiper(containerRef, {
     delay: 1000,
     pauseOnMouseEnter: true,
   },
-  creativeEffect: {
-    prev: {
-      shadow: true,
-      translate: [0, 0, -100],
-    },
-    next: {
-      shadow: true,
-      translate: [0, 0, -100],
-    },
-  },
 });
 
 const imageList = ref([
@@ -54,6 +44,15 @@ onMounted(() => {
 <template>
   <ClientOnly>
     <swiper-container ref="containerRef" :init="false">
+      <swiper-slide v-for="(slide, idx) in imageList" :key="idx">
+        <NuxtImg
+          preload
+          class="w-full h-full object-cover cursor-pointer"
+          :src="slide"
+        />
+      </swiper-slide>
+    </swiper-container>
+    <swiper-container ref="containerRef" :init="false" class="mt-2">
       <swiper-slide v-for="(slide, idx) in imageList" :key="idx">
         <NuxtImg
           preload
