@@ -51,7 +51,8 @@
       >
         OUR MEMORY
       </div>
-      <Slider />
+      <!-- <Slider /> -->
+      <VueSlider />
     </div>
     <div class="mt-4">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">

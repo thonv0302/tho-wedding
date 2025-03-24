@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: ["@nuxtjs/google-fonts", "@nuxt/image"],
+  modules: ["@nuxtjs/google-fonts", "@nuxt/image", "nuxt-swiper"],
   googleFonts: {
     families: {
       Tangerine: [400, 700],
