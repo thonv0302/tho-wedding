@@ -11,109 +11,123 @@
     :modules="modules"
   >
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/anh-ban/DSC08697.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/anh-phong/DSC08964.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/bo-khung/15x21/DSC09003.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/bo-khung/15x21/DSC09477.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/bo-khung/20x30/DSC08666.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/bo-khung/25x25/DSC08764.webp"
     /></swiper-slide>
 
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/videos/DSC08849.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/videos/DSC08874.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/videos/DSC08895.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/videos/DSC08955.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/videos/DSC09029.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/videos/DSC09048.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/videos/DSC09092.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover"
         src="/images/videos/DSC09098.webp"
     /></swiper-slide>
     <!-- <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover"
         src="/images/videos/DSC09119.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover"
         src="/images/videos/DSC09131.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover"
         src="/images/videos/DSC09137.webp"
     /></swiper-slide> -->
     <!-- 
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover"
         src="/images/videos/DSC09198.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover"
         src="/images/videos/DSC09229.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover"
         src="/images/videos/DSC09352.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover"
         src="/images/videos/DSC09499.webp"
     /></swiper-slide> -->
@@ -122,107 +136,119 @@
     :loop="true"
     :spaceBetween="10"
     :slidesPerView="4"
-    :freeMode="true"
     :modules="modules"
     class="mt-2"
   >
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/anh-ban/DSC08697.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/anh-phong/DSC08964.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/bo-khung/15x21/DSC09003.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/bo-khung/15x21/DSC09477.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/bo-khung/20x30/DSC08666.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/bo-khung/25x25/DSC08764.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC08849.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC08874.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC08895.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC08955.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09029.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09048.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg
+        preload
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09092.webp"
     /></swiper-slide>
     <!-- <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09119.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09131.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09137.webp"
     /></swiper-slide> -->
     <!--<swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09198.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09229.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09352.webp"
     /></swiper-slide>
     <swiper-slide
-      ><img
+      ><NuxtImg 
         class="w-full h-full object-cover cursor-pointer"
         src="/images/videos/DSC09499.webp"
     /></swiper-slide> -->
